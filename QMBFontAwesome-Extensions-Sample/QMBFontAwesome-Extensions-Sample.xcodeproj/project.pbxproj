@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2CF655807646BE991F6728 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2039FEC1547E6A11CE127 /* libPods.a */; };
+		E275B0A31835749100C7048F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E275B0A21835749100C7048F /* Foundation.framework */; };
+		E275B0A51835749100C7048F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E275B0A41835749100C7048F /* CoreGraphics.framework */; };
+		E275B0A71835749100C7048F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E275B0A61835749100C7048F /* UIKit.framework */; };
+		E275B0AD1835749100C7048F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E275B0AB1835749100C7048F /* InfoPlist.strings */; };
+		E275B0AF1835749100C7048F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E275B0AE1835749100C7048F /* main.m */; };
+		E275B0B31835749100C7048F /* QMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E275B0B21835749100C7048F /* QMBAppDelegate.m */; };
+		E275B0B61835749100C7048F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E275B0B41835749100C7048F /* Main_iPhone.storyboard */; };
+		E275B0BC1835749100C7048F /* QMBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E275B0BB1835749100C7048F /* QMBFirstViewController.m */; };
+		E275B0BF1835749100C7048F /* QMBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E275B0BE1835749100C7048F /* QMBSecondViewController.m */; };
+		E275B0C11835749100C7048F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E275B0C01835749100C7048F /* Images.xcassets */; };
+		E275B0C81835749100C7048F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E275B0C71835749100C7048F /* XCTest.framework */; };
+		E275B0C91835749100C7048F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E275B0A21835749100C7048F /* Foundation.framework */; };
+		E275B0CA1835749100C7048F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E275B0A61835749100C7048F /* UIKit.framework */; };
+		E275B0D21835749100C7048F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E275B0D01835749100C7048F /* InfoPlist.strings */; };
+		E275B0D41835749100C7048F /* QMBFontAwesome_Extensions_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E275B0D31835749100C7048F /* QMBFontAwesome_Extensions_SampleTests.m */; };
+		E275B0E3183576A900C7048F /* FABarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E275B0E2183576A900C7048F /* FABarButtonItem.m */; };
+		E275B0E6183577FD00C7048F /* FATabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E275B0E5183577FD00C7048F /* FATabBarItem.m */; };
+		E275B0E91835788500C7048F /* FAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E275B0E81835788500C7048F /* FAButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E275B0CB1835749100C7048F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E275B0971835749100C7048F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E275B09E1835749100C7048F;
+			remoteInfo = "QMBFontAwesome-Extensions-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29D2039FEC1547E6A11CE127 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3AB62E7E7B4A6DA165BE92 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E275B09F1835749100C7048F /* QMBFontAwesome-Extensions-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QMBFontAwesome-Extensions-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E275B0A21835749100C7048F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E275B0A41835749100C7048F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E275B0A61835749100C7048F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E275B0AA1835749100C7048F /* QMBFontAwesome-Extensions-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QMBFontAwesome-Extensions-Sample-Info.plist"; sourceTree = "<group>"; };
+		E275B0AC1835749100C7048F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E275B0AE1835749100C7048F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E275B0B01835749100C7048F /* QMBFontAwesome-Extensions-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QMBFontAwesome-Extensions-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		E275B0B11835749100C7048F /* QMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMBAppDelegate.h; sourceTree = "<group>"; };
+		E275B0B21835749100C7048F /* QMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMBAppDelegate.m; sourceTree = "<group>"; };
+		E275B0B51835749100C7048F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E275B0BA1835749100C7048F /* QMBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMBFirstViewController.h; sourceTree = "<group>"; };
+		E275B0BB1835749100C7048F /* QMBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMBFirstViewController.m; sourceTree = "<group>"; };
+		E275B0BD1835749100C7048F /* QMBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMBSecondViewController.h; sourceTree = "<group>"; };
+		E275B0BE1835749100C7048F /* QMBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMBSecondViewController.m; sourceTree = "<group>"; };
+		E275B0C01835749100C7048F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E275B0C61835749100C7048F /* QMBFontAwesome-Extensions-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QMBFontAwesome-Extensions-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E275B0C71835749100C7048F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E275B0CF1835749100C7048F /* QMBFontAwesome-Extensions-SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QMBFontAwesome-Extensions-SampleTests-Info.plist"; sourceTree = "<group>"; };
+		E275B0D11835749100C7048F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E275B0D31835749100C7048F /* QMBFontAwesome_Extensions_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMBFontAwesome_Extensions_SampleTests.m; sourceTree = "<group>"; };
+		E275B0E1183576A900C7048F /* FABarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FABarButtonItem.h; path = "../FontAwesomeIconFactory-Extensions/BarButtonItem/FABarButtonItem.h"; sourceTree = "<group>"; };
+		E275B0E2183576A900C7048F /* FABarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FABarButtonItem.m; path = "../FontAwesomeIconFactory-Extensions/BarButtonItem/FABarButtonItem.m"; sourceTree = "<group>"; };
+		E275B0E4183577FD00C7048F /* FATabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FATabBarItem.h; path = "../FontAwesomeIconFactory-Extensions/TabBarItem/FATabBarItem.h"; sourceTree = "<group>"; };
+		E275B0E5183577FD00C7048F /* FATabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FATabBarItem.m; path = "../FontAwesomeIconFactory-Extensions/TabBarItem/FATabBarItem.m"; sourceTree = "<group>"; };
+		E275B0E71835788500C7048F /* FAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAButton.h; path = "../FontAwesomeIconFactory-Extensions/Button/FAButton.h"; sourceTree = "<group>"; };
+		E275B0E81835788500C7048F /* FAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAButton.m; path = "../FontAwesomeIconFactory-Extensions/Button/FAButton.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E275B09C1835749100C7048F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E275B0A51835749100C7048F /* CoreGraphics.framework in Frameworks */,
+				E275B0A71835749100C7048F /* UIKit.framework in Frameworks */,
+				E275B0A31835749100C7048F /* Foundation.framework in Frameworks */,
+				2F2CF655807646BE991F6728 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E275B0C31835749100C7048F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E275B0C81835749100C7048F /* XCTest.framework in Frameworks */,
+				E275B0CA1835749100C7048F /* UIKit.framework in Frameworks */,
+				E275B0C91835749100C7048F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E275B0961835749100C7048F = {
+			isa = PBXGroup;
+			children = (
+				E275B0DD1835749F00C7048F /* QMBFontAwesome-Extensions */,
+				E275B0A81835749100C7048F /* QMBFontAwesome-Extensions-Sample */,
+				E275B0CD1835749100C7048F /* QMBFontAwesome-Extensions-SampleTests */,
+				E275B0A11835749100C7048F /* Frameworks */,
+				E275B0A01835749100C7048F /* Products */,
+				9F3AB62E7E7B4A6DA165BE92 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E275B0A01835749100C7048F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E275B09F1835749100C7048F /* QMBFontAwesome-Extensions-Sample.app */,
+				E275B0C61835749100C7048F /* QMBFontAwesome-Extensions-SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E275B0A11835749100C7048F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0A21835749100C7048F /* Foundation.framework */,
+				E275B0A41835749100C7048F /* CoreGraphics.framework */,
+				E275B0A61835749100C7048F /* UIKit.framework */,
+				E275B0C71835749100C7048F /* XCTest.framework */,
+				29D2039FEC1547E6A11CE127 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E275B0A81835749100C7048F /* QMBFontAwesome-Extensions-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0B11835749100C7048F /* QMBAppDelegate.h */,
+				E275B0B21835749100C7048F /* QMBAppDelegate.m */,
+				E275B0B41835749100C7048F /* Main_iPhone.storyboard */,
+				E275B0BA1835749100C7048F /* QMBFirstViewController.h */,
+				E275B0BB1835749100C7048F /* QMBFirstViewController.m */,
+				E275B0BD1835749100C7048F /* QMBSecondViewController.h */,
+				E275B0BE1835749100C7048F /* QMBSecondViewController.m */,
+				E275B0C01835749100C7048F /* Images.xcassets */,
+				E275B0A91835749100C7048F /* Supporting Files */,
+			);
+			path = "QMBFontAwesome-Extensions-Sample";
+			sourceTree = "<group>";
+		};
+		E275B0A91835749100C7048F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0AA1835749100C7048F /* QMBFontAwesome-Extensions-Sample-Info.plist */,
+				E275B0AB1835749100C7048F /* InfoPlist.strings */,
+				E275B0AE1835749100C7048F /* main.m */,
+				E275B0B01835749100C7048F /* QMBFontAwesome-Extensions-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E275B0CD1835749100C7048F /* QMBFontAwesome-Extensions-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0D31835749100C7048F /* QMBFontAwesome_Extensions_SampleTests.m */,
+				E275B0CE1835749100C7048F /* Supporting Files */,
+			);
+			path = "QMBFontAwesome-Extensions-SampleTests";
+			sourceTree = "<group>";
+		};
+		E275B0CE1835749100C7048F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0CF1835749100C7048F /* QMBFontAwesome-Extensions-SampleTests-Info.plist */,
+				E275B0D01835749100C7048F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E275B0DD1835749F00C7048F /* QMBFontAwesome-Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0E0183574B700C7048F /* BarButtonItem */,
+				E275B0DF183574B300C7048F /* Button */,
+				E275B0DE183574A600C7048F /* TabBarItem */,
+			);
+			name = "QMBFontAwesome-Extensions";
+			sourceTree = "<group>";
+		};
+		E275B0DE183574A600C7048F /* TabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0E4183577FD00C7048F /* FATabBarItem.h */,
+				E275B0E5183577FD00C7048F /* FATabBarItem.m */,
+			);
+			name = TabBarItem;
+			sourceTree = "<group>";
+		};
+		E275B0DF183574B300C7048F /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0E71835788500C7048F /* FAButton.h */,
+				E275B0E81835788500C7048F /* FAButton.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		E275B0E0183574B700C7048F /* BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				E275B0E1183576A900C7048F /* FABarButtonItem.h */,
+				E275B0E2183576A900C7048F /* FABarButtonItem.m */,
+			);
+			name = BarButtonItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E275B09E1835749100C7048F /* QMBFontAwesome-Extensions-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E275B0D71835749100C7048F /* Build configuration list for PBXNativeTarget "QMBFontAwesome-Extensions-Sample" */;
+			buildPhases = (
+				A83278FCD03142448193EA10 /* Check Pods Manifest.lock */,
+				E275B09B1835749100C7048F /* Sources */,
+				E275B09C1835749100C7048F /* Frameworks */,
+				E275B09D1835749100C7048F /* Resources */,
+				EEBC604DBCC646AF95390139 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QMBFontAwesome-Extensions-Sample";
+			productName = "QMBFontAwesome-Extensions-Sample";
+			productReference = E275B09F1835749100C7048F /* QMBFontAwesome-Extensions-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E275B0C51835749100C7048F /* QMBFontAwesome-Extensions-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E275B0DA1835749100C7048F /* Build configuration list for PBXNativeTarget "QMBFontAwesome-Extensions-SampleTests" */;
+			buildPhases = (
+				E275B0C21835749100C7048F /* Sources */,
+				E275B0C31835749100C7048F /* Frameworks */,
+				E275B0C41835749100C7048F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E275B0CC1835749100C7048F /* PBXTargetDependency */,
+			);
+			name = "QMBFontAwesome-Extensions-SampleTests";
+			productName = "QMBFontAwesome-Extensions-SampleTests";
+			productReference = E275B0C61835749100C7048F /* QMBFontAwesome-Extensions-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E275B0971835749100C7048F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QMB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Toni Möckel";
+				TargetAttributes = {
+					E275B0C51835749100C7048F = {
+						TestTargetID = E275B09E1835749100C7048F;
+					};
+				};
+			};
+			buildConfigurationList = E275B09A1835749100C7048F /* Build configuration list for PBXProject "QMBFontAwesome-Extensions-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E275B0961835749100C7048F;
+			productRefGroup = E275B0A01835749100C7048F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E275B09E1835749100C7048F /* QMBFontAwesome-Extensions-Sample */,
+				E275B0C51835749100C7048F /* QMBFontAwesome-Extensions-SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E275B09D1835749100C7048F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E275B0C11835749100C7048F /* Images.xcassets in Resources */,
+				E275B0B61835749100C7048F /* Main_iPhone.storyboard in Resources */,
+				E275B0AD1835749100C7048F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E275B0C41835749100C7048F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E275B0D21835749100C7048F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A83278FCD03142448193EA10 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEBC604DBCC646AF95390139 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E275B09B1835749100C7048F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E275B0E3183576A900C7048F /* FABarButtonItem.m in Sources */,
+				E275B0AF1835749100C7048F /* main.m in Sources */,
+				E275B0BC1835749100C7048F /* QMBFirstViewController.m in Sources */,
+				E275B0E6183577FD00C7048F /* FATabBarItem.m in Sources */,
+				E275B0B31835749100C7048F /* QMBAppDelegate.m in Sources */,
+				E275B0BF1835749100C7048F /* QMBSecondViewController.m in Sources */,
+				E275B0E91835788500C7048F /* FAButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E275B0C21835749100C7048F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E275B0D41835749100C7048F /* QMBFontAwesome_Extensions_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E275B0CC1835749100C7048F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E275B09E1835749100C7048F /* QMBFontAwesome-Extensions-Sample */;
+			targetProxy = E275B0CB1835749100C7048F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E275B0AB1835749100C7048F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E275B0AC1835749100C7048F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E275B0B41835749100C7048F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E275B0B51835749100C7048F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E275B0D01835749100C7048F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E275B0D11835749100C7048F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E275B0D51835749100C7048F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E275B0D61835749100C7048F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E275B0D81835749100C7048F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3AB62E7E7B4A6DA165BE92 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QMBFontAwesome-Extensions-Sample/QMBFontAwesome-Extensions-Sample-Prefix.pch";
+				INFOPLIST_FILE = "QMBFontAwesome-Extensions-Sample/QMBFontAwesome-Extensions-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E275B0D91835749100C7048F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3AB62E7E7B4A6DA165BE92 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QMBFontAwesome-Extensions-Sample/QMBFontAwesome-Extensions-Sample-Prefix.pch";
+				INFOPLIST_FILE = "QMBFontAwesome-Extensions-Sample/QMBFontAwesome-Extensions-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E275B0DB1835749100C7048F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QMBFontAwesome-Extensions-Sample.app/QMBFontAwesome-Extensions-Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QMBFontAwesome-Extensions-Sample/QMBFontAwesome-Extensions-Sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QMBFontAwesome-Extensions-SampleTests/QMBFontAwesome-Extensions-SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E275B0DC1835749100C7048F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QMBFontAwesome-Extensions-Sample.app/QMBFontAwesome-Extensions-Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QMBFontAwesome-Extensions-Sample/QMBFontAwesome-Extensions-Sample-Prefix.pch";
+				INFOPLIST_FILE = "QMBFontAwesome-Extensions-SampleTests/QMBFontAwesome-Extensions-SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E275B09A1835749100C7048F /* Build configuration list for PBXProject "QMBFontAwesome-Extensions-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E275B0D51835749100C7048F /* Debug */,
+				E275B0D61835749100C7048F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E275B0D71835749100C7048F /* Build configuration list for PBXNativeTarget "QMBFontAwesome-Extensions-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E275B0D81835749100C7048F /* Debug */,
+				E275B0D91835749100C7048F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E275B0DA1835749100C7048F /* Build configuration list for PBXNativeTarget "QMBFontAwesome-Extensions-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E275B0DB1835749100C7048F /* Debug */,
+				E275B0DC1835749100C7048F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E275B0971835749100C7048F /* Project object */;
+}

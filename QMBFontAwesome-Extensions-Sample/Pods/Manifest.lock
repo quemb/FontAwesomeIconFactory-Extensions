@@ -1,0 +1,10 @@
+PODS:
+  - FontAwesomeIconFactory (1.2.1)
+
+DEPENDENCIES:
+  - FontAwesomeIconFactory
+
+SPEC CHECKSUMS:
+  FontAwesomeIconFactory: 6422f9ae8fa4c92a8533feca49051fbe00ddd6cc
+
+COCOAPODS: 0.26.2
