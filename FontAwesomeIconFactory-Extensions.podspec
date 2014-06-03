@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 # Source Info
   s.platform     =  :ios, '7.0'
   s.source       =  {:git => 'https://github.com/quemb/FontAwesomeIconFactory-Extensions.git', :branch => 'master'}
-  s.source_files = 'FontAwesomeIconFactory-Extensions/*.{h,m}'
+  s.source_files = 'FontAwesomeIconFactory-Extensions/*/*.{h,m}'
   s.requires_arc = true
   
 # Pod Dependencies

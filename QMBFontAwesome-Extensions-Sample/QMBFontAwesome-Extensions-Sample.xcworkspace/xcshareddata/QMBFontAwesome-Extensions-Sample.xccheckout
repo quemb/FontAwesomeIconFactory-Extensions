@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CBB0F613-02AF-4277-8943-6CAEB7A7A584</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QMBFontAwesome-Extensions-Sample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1E8AC40-B821-411A-A3D1-08BD4E60A191</key>
+		<string>https://github.com/quemb/FontAwesomeIconFactory-Extensions.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QMBFontAwesome-Extensions-Sample/QMBFontAwesome-Extensions-Sample.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1E8AC40-B821-411A-A3D1-08BD4E60A191</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/quemb/FontAwesomeIconFactory-Extensions.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D1E8AC40-B821-411A-A3D1-08BD4E60A191</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1E8AC40-B821-411A-A3D1-08BD4E60A191</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FontAwesomeIconFactory-Extensions</string>
+		</dict>
+	</array>
+</dict>
+</plist>
