@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NIKFontAwesomeIconFactory+iOS.h"
 
 @interface FAButton : UIButton
+
+-(void) setIcon:(NIKFontAwesomeIcon)icon;
+- (void)drawCircleButton:(UIColor *)color fill:(UIColor *)color;
 
 @end

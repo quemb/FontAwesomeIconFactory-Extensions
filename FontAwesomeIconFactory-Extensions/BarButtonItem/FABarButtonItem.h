@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NIKFontAwesomeIconFactory+iOS.h"
 
 @interface FABarButtonItem : UIBarButtonItem
+
+-(void) setIcon:(NIKFontAwesomeIcon)icon;
+- (id)initWithIcon:(NIKFontAwesomeIcon)icon style:(UIBarButtonItemStyle)style target:(id)target action:(SEL)action;
 
 @end
