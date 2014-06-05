@@ -28,10 +28,16 @@
 
 - (void)setIcon:(NIKFontAwesomeIcon)icon {
     _icon = icon;
+
+
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory buttonIconFactory];
-    [factory setColors:@[self.tintColor]];
     [factory setSize:self.bounds.size.height *0.8];
+    [factory setColors:@[[self titleColorForState:UIControlStateNormal]]];
     [self setImage:[factory createImageForIcon:icon] forState:UIControlStateNormal];
+    [factory setColors:@[[self titleColorForState:UIControlStateSelected]]];
+    [self setImage:[factory createImageForIcon:icon] forState:UIControlStateSelected];
+    [factory setColors:@[[self titleColorForState:UIControlStateDisabled]]];
+    [self setImage:[factory createImageForIcon:icon] forState:UIControlStateDisabled];
     
 
 }
