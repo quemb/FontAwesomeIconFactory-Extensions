@@ -11,7 +11,10 @@
 
 @interface FABarButtonItem : UIBarButtonItem
 
--(void) setIcon:(NIKFontAwesomeIcon)icon;
+@property (nonatomic, strong) UIColor *color;
+@property (nonatomic) NIKFontAwesomeIcon icon;
+
 - (id)initWithIcon:(NIKFontAwesomeIcon)icon style:(UIBarButtonItemStyle)style target:(id)target action:(SEL)action;
+- (id) initWithFontAwesomeIcon:(NIKFontAwesomeIcon)icon target:(id)target action:(SEL)selector;
 
 @end
