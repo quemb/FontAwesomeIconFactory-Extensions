@@ -10,6 +10,7 @@
 
 @interface FAButton(){
     NIKFontAwesomeIcon _icon;
+    NSInteger _iconSize;
 }
 
 @property (nonatomic, strong) CAShapeLayer *circleLayer;
@@ -17,6 +18,8 @@
 @end
 
 @implementation FAButton
+
+
 
 - (void)awakeFromNib
 {
@@ -27,12 +30,22 @@
 }
 
 - (void)setIcon:(NIKFontAwesomeIcon)icon {
+
+    if (_iconSize == 0){
+        _iconSize = (NSInteger) (self.bounds.size.height *0.8);
+    }
+    [self setIcon:icon withSize:_iconSize];
+
+}
+
+- (void)setIcon:(NIKFontAwesomeIcon)icon withSize:(float)size {
+
     _icon = icon;
+    _iconSize = size;
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory buttonIconFactory];
     [factory setColors:@[self.tintColor]];
-    [factory setSize:self.bounds.size.height *0.8];
+    [factory setSize:_iconSize];
     [self setImage:[factory createImageForIcon:icon] forState:UIControlStateNormal];
-    
 
 }
 
@@ -54,3 +67,4 @@
 }
 
 @end
+
