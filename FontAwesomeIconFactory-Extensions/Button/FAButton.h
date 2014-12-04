@@ -12,6 +12,7 @@
 @interface FAButton : UIButton
 
 -(void) setIcon:(NIKFontAwesomeIcon)icon;
-- (void)drawCircleButton:(UIColor *)color fill:(UIColor *)color;
+- (void)setIcon:(NIKFontAwesomeIcon)icon withSize:(float)size;
+- (void)drawCircleButton:(UIColor *)color fill:(UIColor *)fillColor;
 
 @end
